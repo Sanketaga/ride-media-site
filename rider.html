@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ride Media for Riders — Earn ₹2–₹3 per km</title>
+<meta name="description" content="Ride in Vadodara wearing a sponsor T-shirt and earn ₹2–₹3 per verified km. One-tap rides, offline-proof tracking, weekly UPI salary. Download the rider app.">
+<meta property="og:title" content="Ride Media for Riders — ride normally, earn per kilometre">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230F172A'/><text x='32' y='42' font-family='Arial' font-weight='800' font-size='26' fill='%2316A34A' text-anchor='middle'>RM</text></svg>">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-in">
+    <a class="logo" href="index.html"><span class="logo-mark">RM</span> Ride Media</a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">← Home</a>
+      <a href="#earn">Earnings</a>
+      <a href="#join">How to join</a>
+      <a href="#app">The app</a>
+      <a href="brand.html">I’m a Brand →</a>
+    </div>
+    <div class="nav-cta">
+      <a class="btn btn-green btn-sm" href="#app">Download app</a>
+    </div>
+    <button class="burger" id="burger" aria-label="Menu">☰</button>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-in">
+    <div>
+      <span class="pill"><span class="dot"></span> FOR RIDERS · VADODARA PILOT</span>
+      <h1>Ride normally.<br>Earn <span class="grn">₹2–₹3</span><br>per kilometre.</h1>
+      <p class="sub">Wear a sponsor T-shirt, tap Start Ride, and get paid for kilometres you already ride. Weekly UPI salary, wallet that fills trip by trip.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-green" href="#app">⬇ Download the app</a>
+        <a class="btn btn-ghost" href="#riderForm">Sign me up →</a>
+      </div>
+      <div class="hero-proof">
+        <span class="hp">✔ <span><b>One-tap</b> rides</span></span>
+        <span class="hp">✔ <span><b>Weekly UPI</b> salary</span></span>
+        <span class="hp">✔ <span><b>Offline-proof</b> tracking</span></span>
+      </div>
+      <div class="stats">
+        <div class="stat"><div class="n">₹2–₹3</div><div class="l">per verified km (campaign rate)</div></div>
+        <div class="stat"><div class="n">Mon–Sun</div><div class="l">weekly salary cycle (IST)</div></div>
+        <div class="stat"><div class="n"><span data-count="100">0</span></div><div class="l">rider pilot network</div></div>
+        <div class="stat"><div class="n">1 tap</div><div class="l">to start earning</div></div>
+      </div>
+    </div>
+    <div class="hero-vis">
+      <div class="phone">
+        <div class="screen">
+          <div class="screen-top">
+            <img src="mascot.png" alt="Ride Media rider mascot" onerror="this.style.display='none'">
+            <div class="t">Ride Home</div>
+            <div class="s">Namaste, Rider · Start in 1 tap</div>
+          </div>
+          <div class="ride-card">
+            <div class="km"><span id="kmLive">0.00</span> <small>KM</small></div>
+            <span class="gpspill">● GPS fix ✓ <span id="ptLive">0</span> points</span>
+            <div style="font-size:13px;color:#6B7280;font-weight:700">⏱ <span id="minLive">0</span> min · Vadodara · T-shirt verified ✓</div>
+            <button class="stopbtn" onclick="document.getElementById('join').scrollIntoView({behavior:'smooth'})">■ Stop</button>
+          </div>
+          <div class="trip-row"><span>Last payout: ₹42.00 ✓</span><span>Wallet →</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="strip">
+  <div class="strip-in">
+    <span>👆 One-tap ride</span><span>📶 Offline-proof</span><span>🔋 Background tracking</span><span>💰 Weekly UPI</span><span>🔔 Payment inbox</span>
+  </div>
+</div>
+
+<section class="block" id="earn" style="background:#fff;border-bottom:1px solid #EDF0F4">
+  <div class="wrap">
+    <div class="kicker rv">What we give riders</div>
+    <h2 class="title rv">Money you can trace, trip by trip.</h2>
+    <p class="lead rv">Every closed trip writes a payout entry at your campaign’s rate (₹2–₹3/km). Watch it land in your wallet — then collect weekly salary over UPI.</p>
+    <div class="grid2">
+      <div class="card rv">
+        <div class="icon">💰</div><h3>Your earnings</h3>
+        <p><b>₹2–₹3 per verified kilometre</b>, set by the campaign you join. A 20 km day ≈ <b>₹40–₹60</b>, straight into your payout ledger.</p>
+        <p style="margin-top:10px">Week chips (All / This week / Last week, Monday-start) plus a salary-week card show earned vs paid. Small balances roll forward until ₹100.</p>
+      </div>
+      <div class="card rv">
+        <div class="icon">📅</div><h3>Weekly UPI salary</h3>
+        <p>Salary week runs <b>Monday–Sunday IST</b>. The operator pays via UPI and marks paid with a transaction reference — you get notified in-app instantly.</p>
+        <p style="margin-top:10px">Full payment history with UPI refs lives in your wallet. One number = one account forever — reinstall with the same number, history intact.</p>
+      </div>
+    </div>
+    <div class="grid4">
+      <div class="card rv"><div class="icon">👆</div><h3>One-tap ride</h3><p>Start Ride begins automatically. Red Stop ends it → KM/₹ toast → Home.</p></div>
+      <div class="card rv"><div class="icon">📶</div><h3>Offline-proof</h3><p>GPS buffers on-device; closes queue and auto-retry when signal returns.</p></div>
+      <div class="card rv"><div class="icon">🔋</div><h3>Runs in background</h3><p>Foreground service with live KM notification. Leaving the screen never stops a ride.</p></div>
+      <div class="card rv"><div class="icon">🔔</div><h3>Inbox + wallet</h3><p>Payment alerts, review flags, unread badge. Full payment history with UPI refs.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="join">
+  <div class="wrap">
+    <div class="kicker rv">How to join</div>
+    <h2 class="title rv">On the road in minutes.</h2>
+    <div class="steps" style="grid-template-columns:repeat(4,1fr)">
+      <div class="step rv"><span class="num">1 · Install</span><h4>Download the app</h4><p>Android APK from the release below. Allow location + battery access.</p><span class="arr">→</span></div>
+      <div class="step rv"><span class="num">2 · Login</span><h4>Name + OTP</h4><p>Enter your name, verify by OTP. One number = one account.</p><span class="arr">→</span></div>
+      <div class="step rv"><span class="num">3 · Approve</span><h4>Join + T-shirt photo</h4><p>Join a campaign (30-day lock), upload your T-shirt photo, get approved.</p><span class="arr">→</span></div>
+      <div class="step rv"><span class="num">4 · Earn</span><h4>Start riding</h4><p>Tap Start Ride. Mid-ride photo checks keep you verified. Stop → paid.</p></div>
+    </div>
+    <div class="card rv" style="margin-top:20px"><div class="icon">✅</div><h3>You need</h3><p>A two-wheeler · an Android phone · a Vadodara base · willingness to wear the sponsor T-shirt on rides. That’s it.</p></div>
+  </div>
+</section>
+
+<section class="block" id="app" style="background:#fff;border-top:1px solid #EDF0F4;border-bottom:1px solid #EDF0F4">
+  <div class="wrap">
+    <div class="kicker rv">Get the app</div>
+    <h2 class="title rv">Download the rider app.</h2>
+    <p class="lead rv">Pilot build v0.2.4 — OTP login, one-tap rides, wallet, verification checks, offline-proof tracking.</p>
+    <div class="grid2">
+      <div class="card rv">
+        <div class="icon">⬇</div><h3>Install (Android)</h3>
+        <p>Tap below to download the APK directly (~206 MB, Android only). After downloading, open the file and allow “Install from browser” when asked.</p>
+        <div style="display:flex;gap:10px;margin-top:16px;flex-wrap:wrap">
+          <a class="btn btn-green" href="https://github.com/Sanketaga/ride-media/releases/download/v0.2.4/app-debug.apk">⬇ Download v0.2.4 APK</a>
+        </div>
+        <div class="dl-note" style="margin-top:12px">Facing issues? See <a href="https://github.com/Sanketaga/ride-media/releases/tag/v0.2.4" style="text-decoration:underline;font-weight:700">all releases</a> · On-device: allow All-time location + Unrestricted battery for best tracking.</div>
+      </div>
+      <div class="card rv">
+        <div class="icon">🔄</div><h3>Already installed?</h3>
+        <p>The app checks for updates itself: Profile → Check for update. New versions install over the old one — your wallet and history stay intact.</p>
+        <p style="margin-top:10px">New phone? Just log in with the same number — your account reopens automatically.</p>
+      </div>
+    </div>
+
+    <form class="form-card rv" id="riderForm">
+      <h3>Sign me up as a rider 🛵</h3>
+      <p>Fill this in — it opens an email to our team with everything pre-written. We’ll call you back with your T-shirt and onboarding slot.</p>
+      <div class="frow">
+        <div class="field"><label for="r-name">Your name *</label><input id="r-name" name="name" placeholder="e.g. Rahul Patel" required></div>
+        <div class="field"><label for="r-contact">Phone number *</label><input id="r-contact" name="contact" inputmode="tel" placeholder="e.g. 97260 51540" required></div>
+      </div>
+      <div class="frow">
+        <div class="field"><label for="r-vehicle">Vehicle</label><input id="r-vehicle" name="vehicle" placeholder="e.g. Activa / Splendor"></div>
+        <div class="field"><label for="r-zone">Area in Vadodara</label><input id="r-zone" name="zone" placeholder="e.g. Nizampura"></div>
+      </div>
+      <div class="field full"><label for="r-msg">Anything we should know?</label><textarea id="r-msg" name="message" placeholder="Daily riding distance, timing…"></textarea></div>
+      <div><button class="btn btn-green" type="submit">Send rider signup →</button></div>
+      <div class="dl-note">Prefer email directly? <a href="mailto:sanketrkm@gmail.com?subject=Ride%20Media%20pilot%20—%20Rider%20signup" style="text-decoration:underline;font-weight:700">sanketrkm@gmail.com</a></div>
+    </form>
+  </div>
+</section>
+
+<section class="block" id="faq">
+  <div class="wrap">
+    <div class="kicker rv">Rider FAQ</div>
+    <h2 class="title rv">Asked by riders.</h2>
+    <div class="faq">
+      <div class="faq-item rv"><button class="faq-q">How much will I earn? <span>+</span></button><div class="faq-a"><div>₹2–₹3 per verified kilometre, depending on your campaign. Ride 20 km in a day and that’s roughly ₹40–₹60 — paid weekly over UPI.</div></div></div>
+      <div class="faq-item rv"><button class="faq-q">What do I have to wear? <span>+</span></button><div class="faq-a"><div>A sponsor-branded T-shirt while riding. One approved photo at onboarding, then quick random photo checks mid-ride.</div></div></div>
+      <div class="faq-item rv"><button class="faq-q">What if my network goes off mid-ride? <span>+</span></button><div class="faq-a"><div>Nothing is lost — GPS keeps buffering on your phone, and the trip close queues and auto-retries when signal returns.</div></div></div>
+      <div class="faq-item rv"><button class="faq-q">When do I get paid? <span>+</span></button><div class="faq-a"><div>Every trip writes a payout entry instantly. Salary is paid weekly (Monday–Sunday cycle) over UPI with a transaction reference in your wallet.</div></div></div>
+      <div class="faq-item rv"><button class="faq-q">Can I change campaigns? <span>+</span></button><div class="faq-a"><div>One campaign at a time with a 30-day lock — then you’re free to switch to a better-paying one.</div></div></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot">
+    <span><b style="color:var(--navy)">Ride Media</b> · <a href="index.html" style="text-decoration:underline">Home</a> · <a href="brand.html" style="text-decoration:underline">Brand page</a> · <span id="yr"></span></span>
+    <span>Rider app v0.2.4 · Earn ₹2–₹3/km · Vadodara pilot</span>
+  </div>
+</footer>
+
+<script src="site.js"></script>
+</body>
+</html>
